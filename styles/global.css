@@ -1,6 +1,7 @@
 html {
     /* font-size: 12px; */
     max-width: 1200px;
+    margin: 0 auto 
 }
 * {
     font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -74,7 +75,10 @@ html {
     
 
   }
-  
+  .subsection{
+    font-size: 1rem;
+    font-weight: bold;
+  }
 
   @media screen and (max-width: 800px) {
     .summary {
